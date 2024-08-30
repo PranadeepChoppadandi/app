@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-
+! pip freeze > requirements.txt
 import streamlit as st
 
 st.title("My Streamlit App")
