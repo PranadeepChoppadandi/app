@@ -3,7 +3,9 @@
 
 # In[ ]:
 
-! pip freeze > requirements.txt
+! pip install streamlit
+! pip install numpy
+! pip install pandas
 import streamlit as st
 
 st.title("My Streamlit App")
